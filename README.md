@@ -251,7 +251,7 @@ messenger.send(image.to_dict(), 'RESPONSE')
 ### Audio
 
 ```python
-audio = attachments.Image(url='http://example.com/audio.mp3')
+audio = attachments.Audio(url='http://example.com/audio.mp3')
 messenger.send(audio.to_dict(), 'RESPONSE')
 ```
 
